@@ -1,0 +1,17 @@
+{
+    "name": "phatnt93/php_google_drive_sync",
+    "description": "PHP Google Drive Sync",
+    "type": "library",
+    "license": "Free",
+    "autoload": {
+        "psr-4": {
+            "Phatnt93\\PhpGoogleDriveSync\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "phatnt93"
+        }
+    ],
+    "require": {}
+}
