@@ -7,6 +7,12 @@ Sync files in folder.
 1. Google Client API and service_account.json file
 2. PHP >= 8.0
 
+## Install with composer
+
+```bash
+composer require phatnt93/php_google_drive_sync
+```
+
 ## Example
 
 See example:
