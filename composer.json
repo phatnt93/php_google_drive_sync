@@ -5,7 +5,7 @@
     "license": "Free",
     "autoload": {
         "psr-4": {
-            "Phatnt93\\PhpGoogleDriveSync\\": "src/"
+            "PhpGoogleDriveSync\\": "src/"
         }
     },
     "authors": [
@@ -13,5 +13,15 @@
             "name": "phatnt93"
         }
     ],
-    "require": {}
+    "require": {
+        "google/apiclient": "^2.15.0"
+    },
+    "extra": {
+        "google/apiclient-services": [
+            "Drive"
+        ]
+    },
+    "config": {
+        "process-timeout": 600
+    }
 }
