@@ -2,7 +2,7 @@
     "name": "phatnt93/php_google_drive_sync",
     "description": "PHP Google Drive Sync",
     "type": "library",
-    "license": "Free",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "PhpGoogleDriveSync\\": "src/"
