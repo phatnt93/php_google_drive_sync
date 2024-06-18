@@ -1,3 +1,17 @@
+# PHP Google Drive Sync
+
+Sync files in folder.
+
+## Requirement
+
+1. Google Client API and service_account.json file
+2. PHP >= 8.0
+
+## Example
+
+See example:
+
+```php
 <?php
 
 use PhpGoogleDriveSync\Sync;
@@ -15,3 +29,4 @@ if ($sync->hasError()) {
     throw new \Exception($sync->getError());
 }
 $sync->syncFolder(BASE_PATH . '/folder1', $folderId);
+```
