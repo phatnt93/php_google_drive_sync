@@ -17,11 +17,6 @@
         "php": ">=8.0",
         "google/apiclient": "^2.15.0"
     },
-    "extra": {
-        "google/apiclient-services": [
-            "Drive"
-        ]
-    },
     "config": {
         "process-timeout": 600
     }
